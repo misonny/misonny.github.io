@@ -1,0 +1,62 @@
+encoding: UTF-8
+
+permalink: /:year/:month/:day/:title.html
+paginate: 5
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+highlighter: pygments
+pygments: true
+
+# 作者信息
+author: 
+  name: 苏洋
+  email: misonny5610@gmail.com
+  link: http://misonny.github.io/
+  weibo: http://weibo.com/u/2344559062
+  github: https://github.com/misonny
+  github_username:  misonny
+  weibo_username:  misonny
+
+# 站点信息
+title : 米森-misonny博客
+description: 
+  一心喜愛计算机行业，2011年正式學習Java經過一年多的時間培訓，2012年正式踏上程序遠的道路上艰难地前行，
+  目标是成为一名优秀的全栈工程师或者说资深码农。对很多东西都充满兴趣，
+  徒步旅遊、娛樂健身，目前的願望是希望有一輛自己代步車O(∩_∩)O~。
+url: http://misonny.github.io/
+rss_url: /feed.xml
+
+# gavatar头像及Favicon
+gavatar : /assets/img/gavatar.png
+favicon : /assets/img/favicon.png
+
+# disqus 设置
+#disqus:
+#  shortname: misonny
+
+#profile 个人信息
+
+profile_desc : 当任何时候觉得累<br>你的大脑就在进化<br> 当任何时候觉得轻松<br>你都在使用你的习惯<br>
+
+# 首页除了最新文章外显示分类
+cates: 
+- Java
+- JavaScript
+- Linux
+- SpringMVC
+- mybatis
+- hibernate
+- Struts2
+- Jsp
+- Socket
+
+- 其它
+# - Python
+# - OpenStack
+
+# 中文本地化
+locals: 
+   newest : 最近文章
